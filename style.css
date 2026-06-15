@@ -114,7 +114,6 @@ main p {
 .dropcap::first-letter {
   font-size: 5rem;
   font-weight: 700;
-
   margin: 0 30px 20px 15px;
   line-height: 1;
   float: left;
@@ -169,10 +168,10 @@ span.tooltip span {
   left: 50%;
   transform: translateX(-50%);
   width: 200px;
-
 }
 
 /* styling for tooltip bubble arrow */
+/*https://www.w3schools.com/*/
 span.tooltip span::after {
   content: "";
   position: absolute;
